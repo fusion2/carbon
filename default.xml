@@ -31,6 +31,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="fusion2/android" />
+  <remove-project name="fusion2/huawei-kernel-3.4" remote="gh" revision="master" />
+  <remove-project name="dazzozo/huawei-kernel-3.4" remote="gh" revision="master" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="bionic" name="CarbonDev/android_bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
