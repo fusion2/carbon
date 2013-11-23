@@ -24,10 +24,10 @@
            sync-j="4" />
 
   <default revision="refs/heads/jb3"
-           remote="cr"
+           remote="gh"
            sync-j="4" />
 
-  <project path="build" name="CarbonDev/android_build" groups="pdk" >
+  <project path="build" name="fusion2/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   
   
