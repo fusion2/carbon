@@ -30,7 +30,7 @@
   <project path="build" name="CarbonDev/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="fusion2/android" />
+  <project path="android" name="fusion2/android" remote="gh" revision="jb3" />
   <remove-project name="fusion2/huawei-kernel-3.4" remote="gh" revision="master" />
   <remove-project name="dazzozo/huawei-kernel-3.4" remote="gh" revision="master" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
