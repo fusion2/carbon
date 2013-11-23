@@ -28,5 +28,5 @@
            sync-j="4" />
   <project path="android" name="fusion2/android" remote="gh" revision="jb3" />
   <project path="frameworks/av" name="Cameron581/android_frameworks_av" remote="gh" revision="jb3" />
-  <project path="frameworks/native" name="CarbonArmv6/android_frameworks_native" remote="gh" />
+  <project path="frameworks/native" name="CarbonArmv6/android_frameworks_native" remote="gh" revision="cm-10.2" />
 </manifest>
